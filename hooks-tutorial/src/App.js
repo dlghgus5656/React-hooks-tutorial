@@ -3,10 +3,11 @@ import { useState } from "react";
 import Counter from "./Counter";
 import Info from "./Info";
 import ContextSample from "./ContextSample";
+import Average from "./Average";
 
 const App = () => {
   // return <Counter />;
-  return <Info />;
+  // return <Info />;
   // const [visible, setVisible] = useState(false);
   // return (
   //   <div>
@@ -22,6 +23,7 @@ const App = () => {
   //   </div>
   // );
   // return <ContextSample />;
+  return <Average />;
 };
 
 export default App;
