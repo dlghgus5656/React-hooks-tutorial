@@ -1,3 +1,6 @@
+// useContext
+// 이 Hook 을 사용하면 함수형 컴포넌트에서 Context 를 보다 더 쉽게 사용 할 수 있습니다.
+
 import { createContext, useContext } from "react";
 
 const ThemeContext = createContext("black");

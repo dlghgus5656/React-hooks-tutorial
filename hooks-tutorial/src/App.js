@@ -4,6 +4,7 @@ import Counter from "./Counter";
 import Info from "./Info";
 import ContextSample from "./ContextSample";
 import Average from "./Average";
+import UsePromiseSample from "./UsePromiseSample";
 
 const App = () => {
   // return <Counter />;
@@ -23,7 +24,8 @@ const App = () => {
   //   </div>
   // );
   // return <ContextSample />;
-  return <Average />;
+  // return <Average />;
+  return <UsePromiseSample />;
 };
 
 export default App;

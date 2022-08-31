@@ -1,3 +1,11 @@
+// useState
+// useState 는 가장 기본적인 Hook 으로서,
+// 함수형 컴포넌트에서도 가변적인 상태를 지니고 있을 수 있게 해줍니다.
+// 만약에 함수형 컴포넌트에서 상태를 관리해야 되는 일이 발생한다면 이 Hook 을 사용
+
+// useReducer
+// useReducer 는 useState 보다 컴포넌트에서 더 다양한 상황에 따라 다양한 상태를 다른 값으로 업데이트해주고 싶을 때 사용하는 Hook
+
 import { render } from "@testing-library/react";
 import { useState, useReducer } from "react";
 
